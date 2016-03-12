@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator><link href="http://iamprashant.in/feed.xml" rel="self" type="application/atom+xml" /><link href="http://iamprashant.in/" rel="alternate" type="text/html" /><updated>2016-03-01T00:35:32+05:30</updated><id>http://iamprashant.in/</id><title>Prashant&#39;s Blog</title><subtitle>Technical blog, technical writing, developer says, programmer throught, thinking , development, programming </subtitle><entry><title>First article so started with ‘Hello world’</title><link href="http://iamprashant.in/2016/02/28/first-post-hello/" rel="alternate" type="text/html" title="First article so started with &#39;Hello world&#39;" /><published>2016-02-28T17:30:00+05:30</published><updated>2016-02-28T17:30:00+05:30</updated><id>http://iamprashant.in/2016/02/28/first-post-hello</id><content type="html" xml:base="http://iamprashant.in/2016/02/28/first-post-hello/">&lt;p&gt;I am &lt;strong&gt;Prashant Srivastav&lt;/strong&gt; as blog url says.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.2">Jekyll</generator><link href="http://iamprashant.in/feed.xml" rel="self" type="application/atom+xml" /><link href="http://iamprashant.in/" rel="alternate" type="text/html" /><updated>2016-03-13T02:18:17+05:30</updated><id>http://iamprashant.in/</id><title>Prashant&#39;s Blog</title><subtitle>Technical blog, technical writing, developer says, programmer throught, thinking , development, programming </subtitle><entry><title>A step by step guide about how to get started and involved in Android Development.</title><link href="http://iamprashant.in/2016/02/29/getting-started-with-android/" rel="alternate" type="text/html" title="A step by step guide about how to get started and involved in Android Development." /><published>2016-02-29T17:30:00+05:30</published><updated>2016-02-29T17:30:00+05:30</updated><id>http://iamprashant.in/2016/02/29/getting-started-with-android</id><content type="html" xml:base="http://iamprashant.in/2016/02/29/getting-started-with-android/">&lt;p&gt;
+In January, i started exploring android development with some basic of java. I spent a lots of time on the web development and designing side of things, it occurred to me that Android is an extremely powerful platform (and open source). Before we start with the development you need to first verify that your computer meets the basic system requirements. If you’re on a mac like me make sure you have Mac OS 10.*.* or later (x86 only).
+&lt;/p&gt;
+&lt;strong&gt;Is JDK installed?&lt;/strong&gt;
+&lt;p&gt;Mac’s usually comes with the JDK preinstalled and ready to use. &lt;/p&gt;
+&lt;p&gt;For check if you have the JDK (Java development kit) installed open up terminal and type in the command &quot;java -version&quot;. Here is output looks like.&lt;/p&gt;
+&lt;img src=&quot;/img/term2.png&quot;&gt;
+&lt;p&gt;if you don&#39;t have java installed on your system. you can &lt;a href=&quot;https://support.apple.com/downloads/java&quot;&gt;download&lt;/a&gt; and install it.&lt;/p&gt;
+
+&lt;blockquote&gt;Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It&#39;s the largest installed base of any mobile platform and growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
+- &lt;i style=&quot;font-weight: 600;&quot;&gt;Google Developer Team&lt;/i&gt;&lt;/blockquote&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Which IDE is better for android development&lt;/h2&gt;
+&lt;p&gt;An IDE (Integrated Development Environment) is solution to develop and design app repeatedly and quickly. The use of IDE is your personal preference. But personally if I had to choose, Android Studio is widely known for android development. With Android Studio you have ADT tools integrated, and with eclipse you need to integrate them manually. With Android Studio, it feels like a tool designed from the outset with Android development in mind.&lt;/p&gt;
+&lt;p&gt;Android studio 2.0 Beta is latest release. &lt;a href=&quot;http://android-developers.blogspot.in/2016/02/android-studio-20-beta.html&quot;&gt;check new feature&lt;/a&gt; and &lt;a href=&quot;http://tools.android.com/download/studio/beta&quot;&gt;download beta version&lt;/a&gt; &lt;a href=&quot;http://developer.android.com/sdk/index.html&quot;&gt;for stable version&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For eclipse you need to install ADT plugin. To do this start eclipse go to &lt;strong&gt;Help &gt; Install new software&lt;/strong&gt;. Click Add on the top right corner. Enter the following URL: &lt;a href=&quot;https://dl-ssl.google.com/android/eclipse/&quot;&gt;https://dl-ssl.google.com/android/eclipse/&lt;/a&gt; Check developer tools, click Next, and walk through the wizard to install the tools.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Start android project!&lt;/h2&gt;
+&lt;p&gt;For android developer there are a lots of Samples given by google developer team you can use it for learning purpose.
+for sample project is fully functioning Android app. You can browse the resources, source files and see the overall project structure. You can copy and paste the code you need &lt;/p&gt;
+
+&lt;strong&gt;To import a code sample into Android Studio:&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;In the Android Studio menu, select File &gt; New &gt;  Import Sample to open the Import Sample wizard.&lt;/li&gt;
+&lt;li&gt;Select a sample to import and click Next.&lt;/li&gt;
+&lt;li&gt;Specify the application name and project location if different from the displayed settings.&lt;/li&gt;
+&lt;li&gt;Click Finish.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;strong&gt;Working with new project&lt;/strong&gt;
+&lt;p&gt;To create new project in android studio.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;In android studio menu, select File &gt; New &gt; New Project&lt;/li&gt;
+	&lt;li&gt;Configure your new project:
+		&lt;ul&gt;
+			&lt;li&gt;Application Name: Name of application which you want to start with.&lt;/li&gt;
+			&lt;li&gt;Company Domain: Java recommends that use your company&#39;s Internet domain name (which is unique)&lt;/li&gt;
+			&lt;li&gt;Package: Java recommends that use your company domain written in reverse. Then use subpackages for different projects&lt;/li&gt;
+			&lt;li&gt;Project Location: Where you want to save this project.&lt;/li&gt;
+		&lt;/ul&gt;
+	 Here dialogs look like:&lt;/li&gt;
+	 &lt;/br&gt;
+	&lt;img src=&quot;/img/post-02-01.png&quot;&gt;
+	&lt;/br&gt;
+	&lt;li&gt;Next Dialog for target android devices select your target devices like Phone &amp; tablets or TV etc. and select Min SDK to run your app&lt;/li&gt;
+	&lt;/br&gt;
+	&lt;img src=&quot;/img/post-02-02.png&quot;&gt;
+	&lt;/br&gt;
+	&lt;li&gt;Next Dialog for adding a Activity in your application&lt;/li&gt;
+	&lt;/br&gt;
+	&lt;img src=&quot;/img/post-02-03.png&quot;&gt;
+	&lt;/br&gt;
+	&lt;li&gt;Choose activity based on your requirement and name of activity&lt;/li&gt;
+	&lt;/br&gt;
+	&lt;img src=&quot;/img/post-02-04.png&quot;&gt;
+&lt;/ul&gt;
+
+&lt;strong&gt;Understanding the project structure&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;Source (src):&lt;/strong&gt; This folder contains all the source files i.e. this is where all the code is.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Res:&lt;/strong&gt; This is the area where you keep your images, strings and xml layouts.&lt;/li&gt;
+	&lt;li&gt;&lt;strong&gt;Assets:&lt;/strong&gt; This is another place where you can keep files. The difference between /res and /assets is that Android does not generate IDs for the assets. What this means is that to access a file in assets the developer has to provide a complete path to that file.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Prashant Srivastav</name></author><summary>In January, i started exploring android development with some basic of java. I spent a lots of time on the web development and designing side of things, it occurred to me that Android is an extremely powerful platform (and open source). Before we start with the development you need to first verify that your computer meets the basic system requirements. If you’re on a mac like me make sure you have Mac OS 10.*.* or later (x86 only).
+
+Is JDK installed?
+Mac’s usually comes with the JDK preinstalled and ready to use. 
+For check if you have the JDK (Java development kit) installed open up terminal and type in the command &quot;java -version&quot;. Here is output looks like.
+
+if you don&#39;t have java installed on your system. you can download and install it.</summary></entry><entry><title>First article so started with ‘Hello world’</title><link href="http://iamprashant.in/2016/02/28/first-post-hello/" rel="alternate" type="text/html" title="First article so started with &#39;Hello world&#39;" /><published>2016-02-28T17:30:00+05:30</published><updated>2016-02-28T17:30:00+05:30</updated><id>http://iamprashant.in/2016/02/28/first-post-hello</id><content type="html" xml:base="http://iamprashant.in/2016/02/28/first-post-hello/">&lt;p&gt;I am &lt;strong&gt;Prashant Srivastav&lt;/strong&gt; as blog url says.&lt;/p&gt;
 
 &lt;p&gt;I&#39;m working as Software engineer at Koove.&lt;/p&gt;
 &lt;p&gt;

@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Technical blog, technical writing, developer says, programmer throught, thinking , development, programming ">
 
-    <title>First article so started with 'Hello world' - Prashant's Blog</title>
+    <title>A step by step guide about how to get started and involved in Android Development. - Prashant's Blog</title>
 
-    <link rel="canonical" href="http://iamprashant.in/2016/02/28/first-post-hello/">
+    <link rel="canonical" href="http://iamprashant.in/2016/02/29/getting-started-with-android/">
 
     
     <!-- Bootstrap Core CSS -->
@@ -85,16 +85,16 @@
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/img/post-01.jpg')">
+<header class="intro-header" style="background-image: url('/img/post-02.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>First article so started with 'Hello world'</h1>
+                    <h1>A step by step guide about how to get started and involved in Android Development.</h1>
                     
-                    <h2 class="subheading">Why printing 'Hello World' is first program</h2>
+                    <h2 class="subheading">Getting Started With Android Development</h2>
                     
-                    <span class="meta">Posted by Prashant Srivastav on February 28, 2016</span>
+                    <span class="meta">Posted by Prashant Srivastav on February 29, 2016</span>
                 </div>
             </div>
         </div>
@@ -107,36 +107,79 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				<p>I am <strong>Prashant Srivastav</strong> as blog url says.</p>
+				<p>
+In January, i started exploring android development with some basic of java. I spent a lots of time on the web development and designing side of things, it occurred to me that Android is an extremely powerful platform (and open source). Before we start with the development you need to first verify that your computer meets the basic system requirements. If you’re on a mac like me make sure you have Mac OS 10.*.* or later (x86 only).
+</p>
+<strong>Is JDK installed?</strong>
+<p>Mac’s usually comes with the JDK preinstalled and ready to use. </p>
+<p>For check if you have the JDK (Java development kit) installed open up terminal and type in the command "java -version". Here is output looks like.</p>
+<img src="/img/term2.png">
+<p>if you don't have java installed on your system. you can <a href="https://support.apple.com/downloads/java">download</a> and install it.</p>
 
-<p>I'm working as Software engineer at Koove.</p>
-<p>
-I’m passionate about working in Information technology and Research.
-I love to do research about new ideas and find new ways to implement them in different ways</p>
+<blockquote>Android powers hundreds of millions of mobile devices in more than 190 countries around the world. It's the largest installed base of any mobile platform and growing fast—every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
+- <i style="font-weight: 600;">Google Developer Team</i></blockquote>
 
-<h2 class="section-heading">Worked in Technology</h2>
+<h2 class="section-heading">Which IDE is better for android development</h2>
+<p>An IDE (Integrated Development Environment) is solution to develop and design app repeatedly and quickly. The use of IDE is your personal preference. But personally if I had to choose, Android Studio is widely known for android development. With Android Studio you have ADT tools integrated, and with eclipse you need to integrate them manually. With Android Studio, it feels like a tool designed from the outset with Android development in mind.</p>
+<p>Android studio 2.0 Beta is latest release. <a href="http://android-developers.blogspot.in/2016/02/android-studio-20-beta.html">check new feature</a> and <a href="http://tools.android.com/download/studio/beta">download beta version</a> <a href="http://developer.android.com/sdk/index.html">for stable version</a></p>
 
-<p>i started printing "Hello World" in C using printf while learning and exploring c in my college days because this is first and simple program which is given in book or first example given by teacher. But printing "Hello World" used as a greeting or to begin a program in computer language.</p>
+<p>For eclipse you need to install ADT plugin. To do this start eclipse go to <strong>Help > Install new software</strong>. Click Add on the top right corner. Enter the following URL: <a href="https://dl-ssl.google.com/android/eclipse/">https://dl-ssl.google.com/android/eclipse/</a> Check developer tools, click Next, and walk through the wizard to install the tools.</p>
 
-<p>i've worked in various technologies and language. when i started coding while graduation my favourite language was <strong>.NET</strong> then i started exploring Java and PHP to develop and Java Script and Angularjs to design. now i'm exploring android with rxjava to improve and manage code</p>
+<h2 class="section-heading">Start android project!</h2>
+<p>For android developer there are a lots of Samples given by google developer team you can use it for learning purpose.
+for sample project is fully functioning Android app. You can browse the resources, source files and see the overall project structure. You can copy and paste the code you need </p>
 
-<p>I love to work in linux/unix environment. As techOps i have worked and used physical servers for hosting, managing and monitoing  of application and servers.</p>
-<p>Interesting thing is while writing this blog i've started exploring <strong>Ruby</strong> and <strong>jekyll</strong>.</p>
+<strong>To import a code sample into Android Studio:</strong>
+<ul>
+<li>In the Android Studio menu, select File > New >  Import Sample to open the Import Sample wizard.</li>
+<li>Select a sample to import and click Next.</li>
+<li>Specify the application name and project location if different from the displayed settings.</li>
+<li>Click Finish.</li>
+</ul>
 
-<blockquote>when you don't create things, you become defined by your tastes rather than ability. your tastes only narrow &amp; exclude people. so create.</blockquote>
+<strong>Working with new project</strong>
+<p>To create new project in android studio.</p>
+<ul>
+	<li>In android studio menu, select File > New > New Project</li>
+	<li>Configure your new project:
+		<ul>
+			<li>Application Name: Name of application which you want to start with.</li>
+			<li>Company Domain: Java recommends that use your company's Internet domain name (which is unique)</li>
+			<li>Package: Java recommends that use your company domain written in reverse. Then use subpackages for different projects</li>
+			<li>Project Location: Where you want to save this project.</li>
+		</ul>
+	 Here dialogs look like:</li>
+	 </br>
+	<img src="/img/post-02-01.png">
+	</br>
+	<li>Next Dialog for target android devices select your target devices like Phone & tablets or TV etc. and select Min SDK to run your app</li>
+	</br>
+	<img src="/img/post-02-02.png">
+	</br>
+	<li>Next Dialog for adding a Activity in your application</li>
+	</br>
+	<img src="/img/post-02-03.png">
+	</br>
+	<li>Choose activity based on your requirement and name of activity</li>
+	</br>
+	<img src="/img/post-02-04.png">
+</ul>
 
-<p>This is "Hello World" to start, somtimes writing "Hello World" also becomes difficult.</p>
-
-
+<strong>Understanding the project structure</strong>
+<ul>
+	<li><strong>Source (src):</strong> This folder contains all the source files i.e. this is where all the code is.</li>
+	<li><strong>Res:</strong> This is the area where you keep your images, strings and xml layouts.</li>
+	<li><strong>Assets:</strong> This is another place where you can keep files. The difference between /res and /assets is that Android does not generate IDs for the assets. What this means is that to access a file in assets the developer has to provide a complete path to that file.</li>
+</ul>
 
                 <hr>
 
                 <ul class="pager">
                     
-                    
-                    <li class="next">
-                        <a href="/2016/02/29/getting-started-with-android/" data-toggle="tooltip" data-placement="top" title="A step by step guide about how to get started and involved in Android Development.">Next Post &rarr;</a>
+                    <li class="previous">
+                        <a href="/2016/02/28/first-post-hello/" data-toggle="tooltip" data-placement="top" title="First article so started with 'Hello world'">&larr; Previous Post</a>
                     </li>
+                    
                     
                 </ul>
 
